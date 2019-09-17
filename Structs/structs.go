@@ -18,7 +18,7 @@ type badGuy struct{
   health int
   pos position
 }
-
+ 
 func whereIsBadGuy(init badGuy){
   //init is the name you are going to use to refer to what you are parsing
   x := init.pos.x
